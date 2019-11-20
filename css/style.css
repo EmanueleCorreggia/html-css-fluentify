@@ -15,7 +15,7 @@ body {
   background-size: 40%;
   background-position: 105% 110%;
   background-repeat: no-repeat;
-  padding-left: 65px;
+
 }
 .page-main {
 background-color: green;
@@ -73,7 +73,7 @@ background-color: lightgrey;
   width: 35%;
 }
 .testo-bannerone h1 {
-  font-size: 48px;
+  font-size: 50px;
   margin-bottom:30px;
   }
 .button  {
@@ -104,7 +104,7 @@ background-color: lightgrey;
   text-transform: uppercase;
   background-color: #7cbb02;
 }
-h1 {
+.primo-titolo{
   text-align: center;
   padding-top: 50px;
 }
@@ -113,3 +113,33 @@ h2 {
   font-size: 23px;
   color: #6A6C6E;
 }
+.central {
+  margin-top: 35px;
+}
+.left {
+  width: 33.3%;
+  background-color: black;
+  height: 300px;
+  }
+.center {
+  width: 33.3%;
+  background-color: blue;
+  height: 300px;
+  position:
+}
+.right {
+  width: 33.3%;
+  background-color: yellow;
+  height: 300px;
+}
+.central::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* .left {
+  float:left; */
+  }
+/* .central {
+  float: right;
+} */
