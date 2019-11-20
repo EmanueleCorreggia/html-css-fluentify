@@ -224,7 +224,7 @@ h3 {
   background-image: url(../img/mountain.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-top: 50px;
 }
 .col-dx{
@@ -248,5 +248,23 @@ p {
 a{
   color: blue;
 }
-
+footer {
+  height: 250px;
+  background-color: lightgrey;
+}
+.page-footer::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+.footer-dx {
+  float: left;
+  width: 50%;
+  height: 50px;
+}
+.footer-sx {
+  float: right;
+  width: 50%;
+  height: 50px;
+  background-color: green;
 }
