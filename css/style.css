@@ -191,27 +191,29 @@ h3 {
 }
 .left-text-bottom {
   float:left;
-  width: 33.3%;
   height: 300px;
   text-align: center;
   font-size: 25px;
   color: grey;
+  width: 30%;
 }
 .center-text-bottom {
   float: left;
-  width: 33.3%;
   height: 300px;
   text-align: center;
   font-size: 25px;
   color: grey;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .right-text-bottom {
   float: left;
-  width: 33.3%;
   height: 300px;
   text-align: center;
   font-size: 25px;
   color: grey;
+  width: 30%;
 }
 .final-main::after {
   content: '';
