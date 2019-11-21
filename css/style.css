@@ -25,12 +25,12 @@ body {
 }
 .header-nav::after{
   content:'';
-  display:table;
-  clear:both;
+  display: table;
+  clear: both;
 }
-.list-inlene {
+.list-inline {
   list-style: none;
-}
+  }
 .header-nav a {
   color: white;
   text-decoration: none;
@@ -42,13 +42,11 @@ body {
 }
 .header-nav-left {
   float:left;
-  width: 50%;
-  background-color: red;
+  width: 60%;
 }
 .header-nav-right {
   float: right;
-  width: 50%;
-  background-color: green;
+  width: 40%;
 }
 .logo-link {
   margin-right: 12px;
